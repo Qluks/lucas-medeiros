@@ -14,16 +14,9 @@ Depois, acesse `http://localhost:8000`.
 
 ## Publicar no GitHub Pages
 
-O workflow `.github/workflows/deploy.yml` publica automaticamente o conteúdo estático deste repositório no GitHub Pages após cada push para `main`:
+O site já está publicado em [https://qluks.github.io/lucas-medeiros/](https://qluks.github.io/lucas-medeiros/). O repositório público é [Qluks/lucas-medeiros](https://github.com/Qluks/lucas-medeiros).
 
-1. Crie no GitHub o repositório público `Qluks/lucas-medeiros`.
-2. Envie para ele os arquivos do site (`index.html`, `styles.css`, `script.js`, `README.md`, `.nojekyll` e `.github/workflows/deploy.yml`).
-3. Em **Settings → Pages**, escolha **GitHub Actions** como fonte de publicação, se isso ainda não estiver selecionado.
-4. Acompanhe a execução em **Actions**. Após o primeiro deploy, o GitHub mostrará o endereço do site em **Settings → Pages**.
-
-Como o nome escolhido não é `Qluks.github.io`, o endereço padrão terá o formato `https://qluks.github.io/lucas-medeiros/`. Nenhum domínio personalizado foi informado.
-
-O workspace local não está conectado a uma conta/repositório Git e o GitHub CLI não está instalado; por isso, o repositório ainda precisa ser criado na sua conta e os arquivos precisam ser enviados para iniciar o primeiro deploy.
+O workflow `.github/workflows/deploy.yml` publica automaticamente o conteúdo estático após cada push para `main`. A fonte do GitHub Pages está configurada como **GitHub Actions**. Consulte **Actions** no repositório para acompanhar as publicações.
 
 ## Projetos apresentados
 
